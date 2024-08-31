@@ -416,8 +416,10 @@ nav {
 	}
 
 	.booking-container {
+		height: 500px;
+		width: 90%;
 		flex-direction: column;
-		bottom: -25px;
+		bottom: -84%;
 	}
 
 	.booking-container form {
