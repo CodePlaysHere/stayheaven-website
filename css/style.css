@@ -61,7 +61,7 @@ nav {
 }
 
 .nav-logo {
-	font-size: 1.5rem;
+	font-size: 3rem;
 	font-weight: 600;
 	color: var(--text-dark);
 }
@@ -379,6 +379,10 @@ nav {
 /* || RESPONSIVE */
 /* medium */
 @media screen and (width < 900px) {
+	.nav-logo {
+		font-size: 1rem;
+	}
+
 	.booking-container form {
 		grid-template-columns: repeat(2, 1fr);
 	}
@@ -399,6 +403,10 @@ nav {
 
 /* small */
 @media screen and (width < 600px) {
+	.nav-logo {
+		font-size: 1rem;
+	}
+
 	.nav-links {
 		font-size: 8px;
 	}
